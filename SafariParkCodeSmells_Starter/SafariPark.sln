@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29709.97
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesApp", "SafariPark\ClassesApp.csproj", "{424C2BA8-CA25-4935-B7E9-819393290FAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassesApp", "SafariPark\ClassesApp.csproj", "{424C2BA8-CA25-4935-B7E9-819393290FAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesTests", "SafariParkTests\ClassesTests.csproj", "{63E308B9-DAB0-4B66-B528-F297CFC4B33F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SafariParkTests", "SafariParkTests\SafariParkTests.csproj", "{63E308B9-DAB0-4B66-B528-F297CFC4B33F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

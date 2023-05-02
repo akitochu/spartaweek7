@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassesApp
 {
-    public class Hunter : BaseClass, IShootable
+    public class Hunter : Person, IShootable
     {
         public IShootable Shooter { get; set; }
         public Hunter() { }

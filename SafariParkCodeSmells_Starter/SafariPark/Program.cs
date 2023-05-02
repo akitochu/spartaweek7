@@ -16,7 +16,7 @@ namespace ClassesApp
         }
         static void Main(string[] args)
         {
-            BaseClass p = new BaseClass("Katie", "King");
+            Person p = new Person("Katie", "King");
             Hunter h = new Hunter("Marion", "Jones", new Camera("Leica")) { Age = 32 };
             //Console.WriteLine(h.Age);
             //Console.WriteLine(h.Shoot());
