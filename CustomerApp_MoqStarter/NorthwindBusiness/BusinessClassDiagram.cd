@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="NorthwindBusiness.CustomerManager">
+    <Position X="0.5" Y="1.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAQgAAAAAAAAAEAAEAAAgAAAAAAAAg=</HashCode>
+      <FileName>CustomerManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_service" />
+      <Property Name="SelectedCustomer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NorthwindData.Customer">
+    <Position X="6" Y="1.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="NorthwindData.Services.ICustomerService">
+    <Position X="1.75" Y="4" Width="3.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
