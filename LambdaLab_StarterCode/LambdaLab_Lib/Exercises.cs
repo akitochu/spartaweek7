@@ -16,7 +16,7 @@ namespace LambdaLab_Lib
 
         public static int NumberOfSpartansBornAfter1980(List<Spartan> spartans)
         {
-            return spartans.Count(x => x.DateOfBirth.Year > 1980);
+            return spartans.Count(x => x.DateOfBirth.Year >= 1980);
         }
 
         public static int SumOfAllSpartaMarksMoreThan50Inclusive(List<Spartan> spartans)
