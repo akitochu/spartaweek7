@@ -11,6 +11,7 @@ namespace NorthwindBusiness
     {
         private readonly ICustomerService _service;
 
+        //injecting an interface as a parameter. aka dependency injection
         public CustomerManager(ICustomerService service)
         {
             if (service == null)
